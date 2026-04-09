@@ -3,6 +3,6 @@
   "buildCommand": "next build",
   "outputDirectory": ".next",
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://kharchaaa-backend.onrender.com"
+    "NEXT_PUBLIC_API_URL": "https://kharchaabackend.onrender.com"
   }
 }

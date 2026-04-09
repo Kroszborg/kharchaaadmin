@@ -17,6 +17,8 @@ async function request<T>(path: string, opts: RequestOptions = {}): Promise<T> {
     headers,
     body: opts.body ? JSON.stringify(opts.body) : undefined,
     cache: 'no-store',
+    mode: 'cors',
+    credentials: 'include',
   });
 
   const json = await res.json();
